@@ -1,0 +1,69 @@
+body {
+    background: url(../img/mainWallpapers/nightFon.jpg);
+}
+
+.middleMainContainer {
+    margin: 0 20px 2% 5%;
+    width: 75%;
+}
+
+#navRight {
+    float: right;
+    position: fixed;
+    margin: 0 0 0 95%;
+    padding: 65% 8px 10px;
+    font-size: 4em;
+    width: 6%;
+}
+
+.iconMenu button {
+     background: none;
+     border: 0;
+     float: right;
+     padding: 5px 1% 0 1%;
+}
+
+.iconMenu button:link {
+    transform: rotate(90deg);
+}
+
+#containerMenu {
+    margin: 0;
+    width: 30%;
+}
+
+.div-bar {
+    position: fixed;
+    float: left;
+    margin: 10px 0 0 25px;
+    border-radius: 5px;
+    border-color: #e5e5e5;
+    color: #222;
+}
+
+#menuToggle {
+    display: none;
+    margin: 10% 0 0 15%;
+    padding: 0;
+    float: left;
+}
+
+#menuToggle button {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 0;
+    background: #e5e5e5;
+    border: 1px groove #737373;
+    border-radius: 5px;
+}
+
+#menuToggle button:hover {
+    background:#888888;
+    border: 2px solid #080808;
+}
+
+#menuToggle button:active {
+    background: #6f6f6f;
+    border: 3px solid #080808;
+}
