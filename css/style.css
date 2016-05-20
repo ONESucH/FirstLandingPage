@@ -1,5 +1,6 @@
 body {
     background: url(../img/mainWallpapers/nightFon.jpg);
+    height: 20000px;
 }
 
 .middleMainContainer {
@@ -7,29 +8,71 @@ body {
     width: 75%;
 }
 
+#faBars {
+    background: #fff;
+}
+
+#myCarousel {
+    margin: 5.5% 0;
+    z-index: 1;
+}
+
+.middleMenu {
+    font-size: 1.5em;
+    width: 15%;
+    margin: 10% 42% 0;
+    border-radius: 10px;
+    border: 2px dotted #fff;
+    color: #fff;
+    padding: 0.5% 0 0 1%;
+}
+
+.middleMenu:hover {
+    border-radius: 10px;
+    border: 2px groove #6f6f6f;
+}
+
 #navRight {
     float: right;
     position: fixed;
     margin: 0 0 0 95%;
-    padding: 65% 8px 10px;
+    padding: 65% 0 10px;
     font-size: 4em;
     width: 6%;
 }
 
-.iconMenu button {
-     background: none;
-     border: 0;
-     float: right;
-     padding: 5px 1% 0 1%;
+#navRight button {
+    transform: rotate(2deg);
+    background: none;
+    border: 0;
+    z-index: 2;
 }
 
-.iconMenu button:link {
+.iconMenu {
+    z-index: 2;
+    float: right;
+    position: fixed;
+    margin-left: 75%;
+    height: 15%;
+    width: 13%;
+}
+
+.iconMenu a {
+    border: 0;
+    padding: 5px 1% 0 1%;
+    color: #fff;
+}
+
+.iconMenu a:link {
     transform: rotate(90deg);
+    color: #ec971f;
 }
 
 #containerMenu {
+    position: fixed;
     margin: 0;
     width: 30%;
+    z-index: 2;
 }
 
 .div-bar {
@@ -37,7 +80,7 @@ body {
     float: left;
     margin: 10px 0 0 25px;
     border-radius: 5px;
-    border-color: #e5e5e5;
+    border-color: #fff;
     color: #222;
 }
 
@@ -48,12 +91,31 @@ body {
     float: left;
 }
 
+#menuToggle i {
+    padding: 5px;
+    font-size: 1.5em;
+    background: #fff;
+    border: 1px groove #737373;
+    border-radius: 5px;
+}
+
+#menuToggle i:link {
+    background: #6f6f6f;
+    border: 3px solid #080808;
+}
+
+#menuToggle i:active {
+    background: #6f6f6f;
+    border: 2px solid #080808;
+    transform: rotate(2deg);
+}
+
 #menuToggle button {
     width: 100%;
     padding: 5px;
     font-size: 1.5em;
     margin: 0;
-    background: #e5e5e5;
+    background: #fff;
     border: 1px groove #737373;
     border-radius: 5px;
 }

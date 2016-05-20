@@ -8,13 +8,11 @@ allTask.faBars.addEventListener('click', showFun);
 
 var visible = false;
 function showFun() {
-    if(visible) {
+    if (visible) {
         allTask.menuToggle.style.display = 'none';
         visible = false;
-        console.log(allTask.menuToggle);
     } else {
         allTask.menuToggle.style.display = 'block';
         visible = true;
-        console.log(allTask.menuToggle);
     }
 }
