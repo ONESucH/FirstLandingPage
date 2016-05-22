@@ -6,6 +6,20 @@ body {
     top: 5px;
 }
 
+.MenuToImg img {
+    border: 1px groove silver;
+    float: left;
+}
+
+.middleMenu {
+    padding: 0.6% 0 0 1.4%;
+}
+
+.MenuToImg p {
+    padding: 1%;
+    font-size: 1.1em;
+}
+
 #MenuTo {
     margin: 50% 0;
     height: 100%;
@@ -39,7 +53,6 @@ body {
     border-radius: 10px;
     border: 2px groove #6f6f6f;
     color: #fff;
-    padding: 0.5% 0 0 1%;
 }
 
 .navigation img {
@@ -62,10 +75,9 @@ body {
     width: 6%;
 }
 
-#navRight a {
-    transform: rotate(2deg);
+#navRight i:active {
+    transform: rotate(-15deg);
     background: none;
-    border: 0;
     z-index: 2;
 }
 
@@ -83,8 +95,8 @@ body {
     color: #fff;
 }
 
-.iconMenu a:link {
-    transform: rotate(2deg);
+.iconMenu i:active {
+    transform: rotate(90deg);
 }
 
 #containerMenu {
